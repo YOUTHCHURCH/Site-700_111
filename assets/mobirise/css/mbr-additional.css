@@ -422,6 +422,7 @@ h6,
 }
 #content1-z DIV {
   text-align: center;
+  color: #000000;
 }
 #header3-10 .mbr-section-title,
 #header3-10 .mbr-section-subtitle {
@@ -429,10 +430,6 @@ h6,
 }
 #header3-10 .mbr-section-title {
   font-size: 20px;
-}
-#slider2-2 .mbr-section-title,
-#slider2-2 .mbr-section-lead {
-  color: #fff;
 }
 #ext_menu-j .hide-buttons .nav-btn {
   display: none !important;
@@ -494,6 +491,10 @@ h6,
 #ext_menu-j .link[aria-expanded="true"],
 #ext_menu-j .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
+}
+#slider2-12 .mbr-section-title,
+#slider2-12 .mbr-section-lead {
+  color: #fff;
 }
 #msg-box8-l .mbr-section-title,
 #msg-box8-l p {
