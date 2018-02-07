@@ -420,6 +420,16 @@ h6,
 #header1-0 .mbr-section-lead {
   color: #cccccc;
 }
+#content1-z DIV {
+  text-align: center;
+}
+#header3-10 .mbr-section-title,
+#header3-10 .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-10 .mbr-section-title {
+  font-size: 20px;
+}
 #slider2-2 .mbr-section-title,
 #slider2-2 .mbr-section-lead {
   color: #fff;
