@@ -446,7 +446,16 @@ h6,
 #header3-15 .mbr-section-subtitle {
   text-align: center;
 }
+#header3-15 .mbr-section-title {
+  text-align: center;
+}
+#header3-15 .mbr-section-subtitle {
+  text-align: center;
+}
 #content1-16 DIV {
+  text-align: center;
+}
+#content1-16 P {
   text-align: center;
 }
 #ext_menu-j .hide-buttons .nav-btn {
