@@ -428,12 +428,20 @@ h6,
   font-size: 32px;
   font-family: 'Titillium Web', sans-serif;
 }
+#msg-box8-1a .mbr-section-title,
+#msg-box8-1a p {
+  color: #fff;
+}
 #header3-10 .mbr-section-title,
 #header3-10 .mbr-section-subtitle {
   text-align: center;
 }
 #header3-10 .mbr-section-title {
   font-size: 20px;
+}
+#content1-19 DIV {
+  font-size: 14px;
+  text-align: center;
 }
 #social-buttons2-14 .mbr-section-title,
 #social-buttons2-14 .btn-social {
