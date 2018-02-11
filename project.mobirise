@@ -626,7 +626,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "<p>You are doing awesome stuff for Jesus......</p><p>You are sharing Jesus with your friends......</p><p>You are passionate,and excited about life with Jesus.....</p>",
+          "text": "<p>&nbsp;doing awesome stuff for Jesus......</p><p>sharing Jesus with your friends......</p><p>passionate,and excited about life with Jesus.....</p>",
           "_tags": [
             "Theme"
           ],
