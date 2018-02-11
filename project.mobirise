@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-700_111",
-    "currentPage": "index.html",
+    "currentPage": "page1.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -26,7 +26,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 50,
+    "uniqCompNum": 53,
     "versionPublish": "4.6.3",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -466,31 +466,62 @@
           "_anchor": "content1-v"
         },
         {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-section-title, .lead p": {
+              "color": "#fff"
+            }
+          },
           "_params": {
-            "showText": true,
-            "paddingTop": 4,
-            "paddingBottom": 4,
-            "bgColor": "#fff"
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "6",
+            "paddingBottom": "6",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/woman-on-ledge-2000x3000.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/mbr-5-1620x1080.jpg",
               "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/woman-on-ledge-1400x2100.jpg",
               "link": "",
               "alt": "",
-              "title": ""
+              "title": "",
+              "active": true
             },
             "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 250
             }
           },
-          "text": "Sure, I as a grandpa can preach to the youth but do you know what?  I would be just clanking the gong.  But who would they listen to:  that’s right YOU.  They listen to their peers.  They listen to those in their own age groups.  Those who speak their language, know their mannerism, know what it is all about being a youth nowadays, especially Christian youth.  The struggles, temptations, relationships.  They can relate to you and you to them.  Wow.  This sounds exciting.  So I (grandpa) am not starting a bible study, prayer group, youth church, etc., but YOU are.  Do you get it yet?  It is not me reaching your peers but you.  You are the one leading the bible study, prayer group, youth church etc.  You might say that you are not qualified?  You love Jesus, You are qualified!  If you have a heart for Jesus and you passionately love him and want to serve him and to reach your friends for Jesus and…and…and…  The list goes on so is this what you want to do.",
+          "title": "FULL WIDTH INTRO",
+          "text": "Full width intro with adjustable height, background image, parallax effect and a video section. Note that paddings are extended here.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-warning\" href=\"https://mobirise.com\">MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "_name": "image2",
-          "_anchor": "image2-y"
+          "_name": "msg-box7",
+          "_anchor": "msg-box7-1g"
         },
         {
           "_params": {

@@ -536,6 +536,10 @@ h6,
 #msg-box8-l .lead {
   color: #ffffff;
 }
+#msg-box7-1g .mbr-section-title,
+#msg-box7-1g .lead p {
+  color: #fff;
+}
 #msg-box8-f .mbr-section-title,
 #msg-box8-f p {
   color: #fff;
