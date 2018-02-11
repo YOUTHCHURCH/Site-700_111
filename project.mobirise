@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-700_111",
-    "currentPage": "index.html",
+    "currentPage": "page2.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -626,12 +626,17 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "You are doing awesome stuff for Jesus......You are sharing Jesus with your friends.....You are passionate,and excited about life with Jesus",
+          "text": "<p>You are doing awesome stuff for Jesus......</p><p>You are sharing Jesus with your friends......</p><p>You are passionate,and excited about life with Jesus.....</p>",
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-1h"
+          "_anchor": "content1-1h",
+          "_styles": {
+            "DIV": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "_styles": {
