@@ -560,3 +560,27 @@ h6,
 #msg-box8-k .lead {
   color: #ffffff;
 }
+
+#header1-1w .mbr-section-title {
+  color: #ffffff;
+  font-size: 48px;
+}
+#header1-1w .mbr-section-lead {
+  font-family: 'Raleway', sans-serif;
+}
+#content1-1x P {
+  text-align: center;
+}
+#header3-1y .mbr-section-title,
+#header3-1y .mbr-section-subtitle {
+  text-align: center;
+}
+#header3-1y .mbr-section-title {
+  font-size: 24px;
+}
+#custom-html-20 {
+  /* Type valid CSS here */
+}
+#custom-html-20 .my-image {
+  width: 100%;
+}

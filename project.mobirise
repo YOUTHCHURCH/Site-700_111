@@ -26,7 +26,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 69,
+    "uniqCompNum": 73,
     "versionPublish": "4.6.5",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -832,14 +832,14 @@
     "page2.html": {
       "settings": {
         "meta_descr": "Site Builder Description",
-        "title": "Page 2",
+        "title": "Share",
         "order": 1
       },
       "components": [
         {
           "_params": {
-            "showTitle": false,
-            "showText": false,
+            "showTitle": true,
+            "showText": true,
             "showButtons": false,
             "showArrow": false,
             "contentAlign": "center",
@@ -856,14 +856,95 @@
             "overlayColor": "#000",
             "overlayOpacity": 0.5
           },
-          "title": "FULL SCREEN INTRO",
-          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "title": "SHARE",
+          "text": "#whatareyoudoing",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
-          "_anchor": "header1-1w"
+          "_anchor": "header1-1w",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-size": "48px"
+            },
+            ".mbr-section-lead": {
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">HOME</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">LEARN</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">CONTACT</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-1z"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>doing awesome stuff for Jesus</p><p>sharing Jesus with your friends</p><p>passionate about life with Jesus</p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1x",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "24px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Jesus....Adventures...<br>Share...",
+          "meta": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1y"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "{JS_CODE_0}\n{JS_CODE_1}\n<!-- You can specify a per page discussion id on the next line, if your URLs might change. -->\n<div class=\"talkyard-comments\" data-discussion-id=\"\" style=\"margin-top: 45px;\">\n<noscript>Please enable Javascript to view comments.</noscript>\n<p style=\"margin-top: 25px; opacity: 0.9; font-size: 96%\">Comments powered by\n<a href=\"https://www.talkyard.io\">Talkyard</a>.</p>\n</div><!-- Type valid HTML her-->",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-20",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>talkyardServerUrl='https://comments-for-www-thetimothyconnection-com.talkyard.net';</script>",
+            "<script async defer src=\"https://cdn.talkyard.net/-/talkyard-comments.min.js\"></script>"
+          ]
         },
         {
           "_params": {
