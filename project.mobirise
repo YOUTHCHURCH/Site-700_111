@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-700_111",
-    "currentPage": "page2.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -26,10 +26,10 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.3",
-    "uniqCompNum": 73,
+    "uniqCompNum": 114,
     "versionPublish": "4.6.5",
     "screenshot": "screenshot.png",
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/yc-fabricon.gif",
     "noImageResize": ""
   },
   "pages": {
@@ -84,8 +84,8 @@
         },
         {
           "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
+            "paddingTop": "3",
+            "paddingBottom": "3",
             "bgColor": "#fff"
           },
           "text": "<a href=\"page2.html\">#whatamidoing &nbsp; &nbsp; &nbsp; #whatareyoudoing</a>",
@@ -139,14 +139,6 @@
           "_anchor": "msg-box8-1a"
         },
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "font-size": "20px"
-            }
-          },
           "_params": {
             "showMeta": true,
             "paddingTop": "2",
@@ -159,7 +151,12 @@
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-10"
+          "_anchor": "header3-10",
+          "_customHTML": "<section class=\"mbr-section mbr-section__container article\" data-rv-view=\"5\" style=\"background-color: rgb(255, 255, 255); padding-top: 40px; padding-bottom: 20px;\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12\">\n                <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"19\">I Timothy 4:12 Network</h3>\n                <small class=\"mbr-section-subtitle mbr-editable-content\" code-editable-id=\"20\">A ministry of Youth Church USA</small>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".mbr-section-title, .mbr-section-subtitle {\n  text-align: center;\n}\n.mbr-section-title {\n  font-size: 20px;\n}\n",
+          "_customTemplate": true
         },
         {
           "_params": {
@@ -173,24 +170,13 @@
           ],
           "_name": "content1",
           "_anchor": "content1-19",
-          "_styles": {
-            "DIV": {
-              "font-size": "14px",
-              "text-align": "center"
-            }
-          }
+          "_customHTML": "<section class=\"mbr-section article mbr-section__container\" data-rv-view=\"7\" style=\"background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 40px;\">\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12 lead mbr-editable-full\" code-editable-id=\"22\">Don't let anyone look down on you because you are young but set an example for the believers in speech in life in love in faith and in purity.<br> I Timothy 4:12</div>\n        </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "DIV {\n  font-size: 14px;\n  text-align: center;\n}\n",
+          "_customTemplate": true
         },
         {
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#232323"
-            },
-            ".mbr-section-title": {
-              "color": "#000000",
-              "text-align": "center",
-              "font-size": "20px"
-            }
-          },
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
@@ -204,12 +190,17 @@
             "overlayOpacity": 0.5
           },
           "text": "FOLLOW&nbsp;",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"socicon socicon-googleplus\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a>      ",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social btn-success\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-success\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social btn-success\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-googleplus\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social btn-success\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      ",
           "_tags": [
             "Theme"
           ],
           "_name": "social-buttons2",
-          "_anchor": "social-buttons2-14"
+          "_anchor": "social-buttons2-14",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding mbr-parallax-background\" data-rv-view=\"10\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/skateboarder-2000x1333.jpg&quot;); padding-top: 90px; padding-bottom: 90px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-8 col-md-offset-2 text-xs-center\">\n                <div><a class=\"btn btn-social btn-success mbr-editable-button\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" code-editable-id=\"15\"><i class=\"socicon socicon-twitter\"></i></a> <a class=\"btn btn-social btn-success mbr-editable-button\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" code-editable-id=\"16\"><i class=\"socicon socicon-facebook\"></i></a> <a class=\"btn btn-social btn-success mbr-editable-button\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\" code-editable-id=\"17\"><i class=\"socicon socicon-googleplus\"></i></a>  <a class=\"btn btn-social btn-success mbr-editable-button\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" code-editable-id=\"18\"><i class=\"socicon socicon-instagram\"></i></a>      </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".mbr-section-title, .btn-social {\n  color: #232323;\n}\n.mbr-section-title {\n  color: #000000;\n  text-align: center;\n  font-size: 20px;\n}\n",
+          "_customTemplate": true
         },
         {
           "_styles": {
@@ -264,7 +255,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-black btn-black-outline\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">SHARE</a> ",
+          "buttons": "  <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">SHARE</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">LEARN</a> ",
           "_tags": [
             "Theme"
           ],
@@ -300,13 +291,18 @@
             }
           },
           "text1": "<strong>Address</strong><br>Youth Church USA<br>PO Box 374<br>Kettle Falls, WA 99141",
-          "text2": "<strong>Contacts</strong><br>\nEmail: youthchurchusa@gmail.com<br>Text: +1 (509) 690 6375<br><br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: <a href=\"mailto:youthchurchusa@gmail.com\">youthchurchusa@gmail.com</a><br>Text: +1 (509) 690 6375<br><br>",
           "text3": "<strong>Links</strong><br><a href=\"page1.html\">Learn</a><br><a href=\"page2.html\">Share</a><br><a href=\"page3.html\">Contact</a><br><a href=\"page4.html\">Donate</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-4"
+          "_anchor": "contacts1-4",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding mbr-footer footer1\" data-rv-view=\"17\" style=\"background-color: rgb(0, 0, 0); padding-top: 90px; padding-bottom: 90px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <div><img src=\"@PROJECT_PATH@/assets/images/youth-church-usa-profile-128x79.jpg\"></div>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"96\"><strong>Address</strong><br>Youth Church USA<br>PO Box 374<br>Kettle Falls, WA 99141</p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"97\"><strong>Contacts</strong><br>\n Email:<br><a href=\"mailto:thetimothyconnection@gmail.com\">thetimothyconnection@gmail.com</a><br><br>Text:<br> 1 (509) 690 6375<br><br></p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"98\"><strong>Links</strong><br><a href=\"page1.html\">Learn</a><br><a href=\"page2.html\">Share</a><br><a href=\"page3.html\">Contact</a><br><a href=\"page4.html\">Donate</a></p>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
         },
         {
           "_inherit": "menu",
@@ -323,7 +319,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">CONTACT</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">LEARN</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">SHARE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">DONATE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">LEARN</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">SHARE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">CONTACT</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">BLOGS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">&nbsp;Young People's&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://spark.adobe.com/page/kzkV93xjHMfW8/\" aria-expanded=\"false\" target=\"_blank\">Sunrise Dialogues</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">DONATE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -399,7 +395,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Learn",
-        "order": 4
+        "order": 6
       },
       "components": [
         {
@@ -431,13 +427,13 @@
             "overlayOpacity": 0.5
           },
           "title": "LEARN<br>",
-          "text": "Who we are",
+          "text": "who we are",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box8",
-          "_anchor": "msg-box8-l"
+          "_anchor": "msg-box8-23"
         },
         {
           "_params": {
@@ -458,12 +454,17 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "text": "Our passion is your passion.  Passionate about Jesus?  So are we!  This younger generation needs Jesus and we believe that the best way to reach them for Jesus is through YOU!  That’s right.  Not through old people (30+) but through those you speak the language of the young people. &nbsp;Ages for I Timothy 4:12 are from upper teens to mid twenties. &nbsp;Older is awesome!. &nbsp;Find some young people and mentor them and release them into ministry.",
+          "text": "Our passion is your passion.  Passionate about Jesus? On fire for Jesus?  So are we! We are a network of like minded indivduals who are doing crazy things for Jesus at a young age (16-25).  Leading Bible studies? Prayer groups or just in love with Jesus, connect with us. &nbsp;",
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
-          "_anchor": "content1-v"
+          "_anchor": "content1-v",
+          "_styles": {
+            "DIV": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "_inherit": "msg-box5",
@@ -525,6 +526,60 @@
         },
         {
           "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>You are not alone, we are here to give you encouragement in doing all you can do for Jesus.  The impossible is made possible with God’s help.  Share your experiences with us, encourage one another and the most important thing is just keep doing what you are doing for Jesus!</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2l",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "24px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Share your experiences with us",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2m"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">SHARE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-2n"
+        },
+        {
+          "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
@@ -552,13 +607,18 @@
             }
           },
           "text1": "<strong>Address</strong><br>Youth Church USA<br>PO Box 374<br>Kettle Falls, WA 99141",
-          "text2": "<strong>Contacts</strong><br>\nEmail: youthchurchusa@gmail.com<br>Text: +1 (509) 690 6375<br><br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: <a href=\"mailto:youthchurchusa@gmail.com\">youthchurchusa@gmail.com</a><br>Text: +1 (509) 690 6375<br><br>",
           "text3": "<strong>Links</strong><br><a href=\"page1.html\">Learn</a><br><a href=\"page2.html\">Share</a><br><a href=\"page3.html\">Contact</a><br><a href=\"page4.html\">Donate</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-5"
+          "_anchor": "contacts1-5",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding mbr-footer footer1\" data-rv-view=\"98\" style=\"background-color: rgb(0, 0, 0); padding-top: 90px; padding-bottom: 90px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <div><img src=\"@PROJECT_PATH@/assets/images/youth-church-usa-profile-128x79.jpg\"></div>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"93\"><strong>Address</strong><br>Youth Church USA<br>PO Box 374<br>Kettle Falls, WA 99141</p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"94\"><strong>Contacts</strong><br>\nEmail:<br><a href=\"mailto:thetimothyconnection@gmail.com\">thetimothyconnection@gmail.com</a><br><br>Text:<br> 1 (509) 690 6375<br><br></p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"95\"><strong>Links</strong><br><a href=\"page1.html\">Learn</a><br><a href=\"page2.html\">Share</a><br><a href=\"page3.html\">Contact</a><br><a href=\"page4.html\">Donate</a></p>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
         }
       ]
     },
@@ -566,7 +626,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Contact",
-        "order": 3
+        "order": 5
       },
       "components": [
         {
@@ -598,7 +658,7 @@
             "overlayOpacity": 0.5
           },
           "title": "Contact US",
-          "text": "<p>Text email letter</p><p>We want to hear from you</p>",
+          "text": "<p>text email letter</p><p>we want to hear from you</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
           "_tags": [
             "Theme"
@@ -625,17 +685,17 @@
             "paddingBottom": 1,
             "bgColor": "#efefef"
           },
-          "text": "<p><b>We prefer you to text us instead of calling;</b></p><p><br></p><p><span style=\"font-size: 1.07rem;\">&nbsp;john 1 509 690 6375</span></p><p><span style=\"font-size: 1.07rem;\"><br></span></p><p>&nbsp; &nbsp; &nbsp; &nbsp; therese 1 360 748 0475</p><p><br></p><p><b>Write:</b></p><p>Youth Church USA</p><p>PO Box 374</p><p>Kettle Falls, WA 99141</p><p><br></p><p><b>Email:</b></p><p>Use contact form below or email us at:</p><p>youthchurchusa@gmail.com</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>",
+          "text": "<p><b>Text Us:</b></p><p><br></p><p><span style=\"font-size: 1.07rem;\">&nbsp;john 1 509 690 6375</span></p><p><span style=\"font-size: 1.07rem;\"><br></span></p><p>&nbsp; &nbsp; &nbsp; &nbsp; therese 1 360 748 0475</p><p><br></p><p><b>Write:</b></p><p>Youth Church USA</p><p>PO Box 374</p><p>Kettle Falls, WA 99141</p><p><br></p><p><b>Email:</b></p><p>Use contact form below or email us at:</p><p><a href=\"mailto:thetimothyconnection@gmail.com\">youthchurchusa@gmail.com</a></p><p><a href=\"mailto:youthchurchusa@gmail.com\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></p>",
           "_tags": [
             "Theme"
           ],
           "_name": "content1",
           "_anchor": "content1-d",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
+          "_customHTML": "<section class=\"mbr-section article mbr-section__container\" data-rv-view=\"25\" style=\"background-color: rgb(239, 239, 239); padding-top: 20px; padding-bottom: 20px;\">\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12 lead mbr-editable-full\" code-editable-id=\"21\"><p><strong>Text Us:</strong></p><p></p><p><span style=\"font-size: 1.07rem;\">&nbsp;john 1 509 690 6375</span></p><p><span style=\"font-size: 1.07rem;\"><br></span></p><p>&nbsp; &nbsp; &nbsp; &nbsp; therese 1 360 748 0475</p><p><br><br></p><p><strong>Write:</strong></p><p>Youth Church USA</p><p>PO Box 374</p><p>Kettle Falls, WA 99141</p><p><br><br></p><p><strong>Email:</strong></p><p>Use contact form below or email us at:</p><p><a href=\"mailto:thetimothyconnection@gmail.com\">thetimothyconnection@gmail.com</a></p><p><a href=\"mailto:youthchurchusa@gmail.com\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></p></div>\n        </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "P {\n  text-align: center;\n}\n",
+          "_customTemplate": true
         },
         {
           "_params": {
@@ -657,9 +717,9 @@
           "subtitle": "<br><br>",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
           "form": {
-            "action": "purplefeline401@gmail.com",
+            "action": "thetimothyconnection@gmail.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "Thanks for your interest in the I Timothy 4:12 Network!"
             },
             "fields": {
               "name": {
@@ -723,13 +783,18 @@
             }
           },
           "text1": "<strong>Address</strong><br>Youth Church USA<br>PO Box 374<br>Kettle Falls, WA 99141",
-          "text2": "<strong>Contacts</strong><br>\nEmail: youthchurchusa@gmail.com<br>Text: +1 (509) 690 6375<br><br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: <a href=\"mailto:youthchurchusa@gmail.com\">youthchurchusa@gmail.com</a><br>Text: +1 (509) 690 6375<br><br>",
           "text3": "<strong>Links</strong><br><a href=\"page1.html\">Learn</a><br><a href=\"page2.html\">Share</a><br><a href=\"page3.html\">Contact</a><br><a href=\"page4.html\">Donate</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-7"
+          "_anchor": "contacts1-7",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding mbr-footer footer1\" data-rv-view=\"35\" style=\"background-color: rgb(0, 0, 0); padding-top: 90px; padding-bottom: 90px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <div><img src=\"@PROJECT_PATH@/assets/images/youth-church-usa-profile-128x79.jpg\"></div>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"79\"><strong>Address</strong><br>Youth Church USA<br>PO Box 374<br>Kettle Falls, WA 99141</p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"80\"><strong>Contacts</strong><br>\nEmail:<br><a href=\"mailto:thetimothyconnection@gmail.com\">thetimothyconnection@gmail.com</a><br><br>Text:<br> 1 (509) 690 6375<br><br></p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"81\"><strong>Links</strong><br><a href=\"page1.html\">Learn</a><br><a href=\"page2.html\">Share</a><br><a href=\"page3.html\">Contact</a><br><a href=\"page4.html\">Donate</a></p>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
         }
       ]
     },
@@ -737,7 +802,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Donate",
-        "order": 2
+        "order": 4
       },
       "components": [
         {
@@ -769,7 +834,7 @@
             "overlayOpacity": 0.5
           },
           "title": "DONATE",
-          "text": "We are a 501(c)(3) organization",
+          "text": "we are a 501(c)(3) organization",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
           "_tags": [
             "Theme"
@@ -789,6 +854,177 @@
           ],
           "_name": "buttons1",
           "_anchor": "buttons1-o"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "We are a totally volunteer 501(c)(3) nonprofit organization.\n<div>\n</div><div>&nbsp;<span style=\"font-size: 1.07rem;\">Your Donations are tax deductible through the IRS.</span></div>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2e",
+          "_styles": {
+            "DIV": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "24px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Mail",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2h"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "3",
+            "bgColor": "#fff"
+          },
+          "text": "<p>Youth Church USA</p><p>PO Box 374</p><p>Kettle Falls, WA 99141</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2i",
+          "_styles": {
+            "P": {
+              "text-align": "center"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "24px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Online",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2o"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- PayPal Logo --><table border=\"0\" cellpadding=\"10\" cellspacing=\"0\" align=\"center\"><tbody><tr><td align=\"center\"></td></tr><tr><td align=\"center\"><a href=\"https://www.paypal.com/webapps/mpp/paypal-popup\" title=\"How PayPal Works\" onclick=\"javascript:window.open('https://www.paypal.com/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;\"><img src=\"https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_74x46.jpg\" border=\"0\" alt=\"PayPal Logo\"></a></td></tr></tbody></table><!-- PayPal Logo -->",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-2j",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2k"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\">\n<center>\n<input type=\"hidden\" name=\"cmd\" value=\"_s-xclick\">\n<input type=\"hidden\" name=\"hosted_button_id\" value=\"FPWX667EVWZUG\">\n<input type=\"image\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif\" border=\"0\" name=\"submit\" alt=\"PayPal - The safer, easier way to pay online!\">\n<img alt=\"\" border=\"0\" src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\" width=\"1\" height=\"1\">\n</center>\n</form>\n",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-2c",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "18px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "3",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Thank you for supporting this younger generation reaching their friends for Christ.",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2g"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<i>Donations made to Youth Church USA will be used solely at our discretion to further our tax exempt purposes to further the Gospel of Jesus Christ</i>.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2f",
+          "_styles": {
+            "DIV": {
+              "text-align": "center"
+            }
+          }
         },
         {
           "_params": {
@@ -819,13 +1055,18 @@
             }
           },
           "text1": "<strong>Address</strong><br>Youth Church USA<br>PO Box 374<br>Kettle Falls, WA 99141",
-          "text2": "<strong>Contacts</strong><br>\nEmail: youthchurchusa@gmail.com<br>Text: +1 (509) 690 6375<br><br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: <a href=\"mailto:youthchurchusa@gmail.com\">youthchurchusa@gmail.com</a><br>Text: +1 (509) 690 6375<br><br>",
           "text3": "<strong>Links</strong><br><a href=\"page1.html\">Learn</a><br><a href=\"page2.html\">Share</a><br><a href=\"page3.html\">Contact</a><br><a href=\"page4.html\">Donate</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-e"
+          "_anchor": "contacts1-e",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding mbr-footer footer1\" data-rv-view=\"80\" style=\"background-color: rgb(0, 0, 0); padding-top: 90px; padding-bottom: 90px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <div><img src=\"@PROJECT_PATH@/assets/images/youth-church-usa-profile-128x79.jpg\"></div>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"73\"><strong>Address</strong><br>Youth Church USA<br>PO Box 374<br>Kettle Falls, WA 99141</p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"74\"><strong>Contacts</strong><br>\nEmail:<br><a href=\"mailto:thetimothyconnection@gmail.com\">thetimothyconnection@gmail.com</a><br><br>Text:<br> 1 (509) 690 6375<br><br></p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"75\"><strong>Links</strong><br><a href=\"page1.html\">Learn</a><br><a href=\"page2.html\">Share</a><br><a href=\"page3.html\">Contact</a><br><a href=\"page4.html\">Donate</a></p>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
         }
       ]
     },
@@ -833,7 +1074,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "Share",
-        "order": 1
+        "order": 3
       },
       "components": [
         {
@@ -857,23 +1098,18 @@
             "overlayOpacity": 0.5
           },
           "title": "SHARE",
-          "text": "#whatareyoudoing",
+          "text": "<br><br><br><br><b>#whatareyoudoing</b>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "header1",
           "_anchor": "header1-1w",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#ffffff",
-              "font-size": "48px"
-            },
-            ".mbr-section-lead": {
-              "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
-            }
-          }
+          "_customHTML": "<section class=\"mbr-section mbr-section-hero mbr-section-full mbr-parallax-background\" data-rv-view=\"24\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/flying-man-1853x1080.jpg&quot;);\">\n\n    \n\n    <div class=\"mbr-table-cell\">\n\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"mbr-section col-md-10 col-md-offset-1 text-xs-center\">\n\n                    <h1 class=\"mbr-section-title display-1 mbr-editable-content\" code-editable-id=\"52\">SHARE</h1>\n                    <p class=\"mbr-section-lead lead mbr-editable-content\" code-editable-id=\"53\"><br><br><br><br><strong>#whatareyoudoing</strong></p>\n                    \n                </div>\n            </div>\n        </div>\n    </div>\n\n    \n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);\n.mbr-section-title {\n  color: #ffffff;\n  font-size: 48px;\n}\n.mbr-section-lead {\n  font-family: 'Raleway', sans-serif;\n  color: #000000;\n}\n.mbr-section-lead B {\n  color: #000000;\n}\n",
+          "_customTemplate": true
         },
         {
           "_params": {
@@ -881,30 +1117,12 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"https://mobirise.com/mobirise-free-win.zip\" data-toolbar=\"-mbrBtnMove\">HOME</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">LEARN</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"https://mobirise.com/mobirise-free-mac.zip\" data-toolbar=\"-mbrBtnMove\">CONTACT</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">HOME</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">LEARN</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CONTACT</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "buttons1",
           "_anchor": "buttons1-1z"
-        },
-        {
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p>doing awesome stuff for Jesus</p><p>sharing Jesus with your friends</p><p>passionate about life with Jesus</p><p><br></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-1x",
-          "_styles": {
-            "P": {
-              "text-align": "center"
-            }
-          }
         },
         {
           "_styles": {
@@ -921,25 +1139,123 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "title": "Jesus....Adventures...<br>Share...",
-          "meta": "",
+          "title": "You are on a journey with Jesus...",
+          "meta": "By John Smith posted July 20, 2016",
           "_tags": [
             "Theme"
           ],
           "_name": "header3",
-          "_anchor": "header3-1y"
+          "_anchor": "header3-27"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p><b>SHARE...</b></p><p>your passion</p><p>your ministry</p><p>whatever you are doing for Jesus</p><p><b><br></b></p>",
+          "text2": "<p><b>Learn...</b></p><p>what are others doing</p><p>what you can do</p><p>who we are</p><p><br></p><p><br></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content6",
+          "_anchor": "content6-29",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "text": "You are not alone in wanting to reach out to your friends and community for Jesus at a young age. &nbsp;See what others are doing and learn from them so you can be empowered and have other examples of what people your same age are doing in their communities.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-2a"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/woman-in-field-2000x1333.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "SHARE &nbsp; &nbsp; LEARN &nbsp; &nbsp; REPEAT",
+          "caption": "<p>Background image with solid color overlay and parallax effect. Develop fully responsive, mobile-ready websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-35",
+          "_customHTML": "<section class=\"mbr-section mbr-parallax-background\" data-rv-view=\"29\" style=\"background-image: url(&quot;@PROJECT_PATH@/assets/images/woman-in-field-2000x1333.jpg&quot;); padding-top: 120px; padding-bottom: 120px;\">\n\n    <div class=\"mbr-overlay\" style=\"opacity: 0.5; background-color: rgb(0, 0, 0);\">\n    </div>\n\n    <div class=\"container\">\n        <h3 class=\"mbr-section-title display-2 mbr-editable-content\" code-editable-id=\"23\">SHARE &nbsp; &nbsp; LEARN &nbsp; &nbsp; REPEAT</h3>\n        \n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": ".mbr-section-title, p {\n  color: #ffffff;\n}\n.mbr-section-title {\n  text-align: center;\n}\n",
+          "_customTemplate": true
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efefef"
+          },
+          "text": "Posts are to be positive, encouraging and the sharing of what one is doing for the kingdom of God. &nbsp;Posts are subject to review amd may be deleted if they do not follow our guidelines. &nbsp;Regardless, we love all of you and may the Name of Jesus always be glorified!",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-31",
+          "_customHTML": "<section class=\"mbr-section article mbr-section__container\" data-rv-view=\"31\" style=\"background-color: rgb(239, 239, 239); padding-top: 20px; padding-bottom: 20px;\">\n\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-xs-12 lead mbr-editable-full\" code-editable-id=\"24\">Posts are to be positive, encouraging and the sharing of what one is doing for the kingdom of God. &nbsp;Posts are subject to review amd may be deleted if they do not follow our guidelines. &nbsp;Regardless, we love all of you and may the Name of Jesus always be glorified!</div>\n        </div>\n    </div>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "DIV {\n  font-size: 10px;\n  text-align: center;\n}\n",
+          "_customTemplate": true
         },
         {
           "_customTemplate": true,
           "_afterNavbarItem": false,
-          "_customHTML": "{JS_CODE_0}\n{JS_CODE_1}\n<!-- You can specify a per page discussion id on the next line, if your URLs might change. -->\n<div class=\"talkyard-comments\" data-discussion-id=\"\" style=\"margin-top: 45px;\">\n<noscript>Please enable Javascript to view comments.</noscript>\n<p style=\"margin-top: 25px; opacity: 0.9; font-size: 96%\">Comments powered by\n<a href=\"https://www.talkyard.io\">Talkyard</a>.</p>\n</div><!-- Type valid HTML her-->",
+          "_customHTML": "<div id=\"disqus_thread\"></div>\n{JS_CODE_0}\n<noscript>Please enable JavaScript to view the &amp;lt;a href=\"https://disqus.com/?ref_noscript\"&amp;gt;comments powered by Disqus.&amp;lt;/a&amp;gt;</noscript>\n                            ",
           "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
           "alias": "code-editor",
           "_tags": [
             "Extension"
           ],
           "_name": "pro.custom-html",
-          "_anchor": "custom-html-20",
+          "_anchor": "custom-html-22",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>\n\n/**\n*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.\n*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/\n/*\nvar disqus_config = function () {\nthis.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable\nthis.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable\n};\n*/\n(function() { // DON'T EDIT BELOW THIS LINE\nvar d = document, s = d.createElement('script');\ns.src = 'https://thetimothyconnection-com.disqus.com/embed.js';\ns.setAttribute('data-timestamp', +new Date());\n(d.head || d.body).appendChild(s);\n})();\n</script>"
+          ]
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "{JS_CODE_0}\n{JS_CODE_1}\n<!-- You can specify a per page discussion id on the next line, if your URLs might change. -->\n<div class=\"talkyard-comments\" data-discussion-id=\"\" style=\"margin-top: 45px;\">\n<noscript>Please enable Javascript to view comments.</noscript>\n<p style=\"margin-top: 25px; opacity: 0.9; font-size: 96%\">Comments powered by\n<a href=\"https://www.talkyard.io\">Talkyard</a>.</p>\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-34",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script>talkyardServerUrl='https://comments-for-www-thetimothyconnection-com.talkyard.net';</script>",
@@ -975,13 +1291,288 @@
             }
           },
           "text1": "<strong>Address</strong><br>Youth Church USA<br>PO Box 374<br>Kettle Falls, WA 99141",
-          "text2": "<strong>Contacts</strong><br>\nEmail: youthchurchusa@gmail.com<br>Text: +1 (509) 690 6375<br><br>",
+          "text2": "<strong>Contacts</strong><br>\nEmail: <a href=\"mailto:youthchurchusa@gmail.com\">youthchurchusa@gmail.com</a><br>Text: +1 (509) 690 6375<br><br>",
           "text3": "<strong>Links</strong><br><a href=\"page1.html\">Learn</a><br><a href=\"page2.html\">Share</a><br><a href=\"page3.html\">Contact</a><br><a href=\"page4.html\">Donate</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "contacts1",
-          "_anchor": "contacts1-1u"
+          "_anchor": "contacts1-1u",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding mbr-footer footer1\" data-rv-view=\"57\" style=\"background-color: rgb(0, 0, 0); padding-top: 90px; padding-bottom: 90px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <div><img src=\"@PROJECT_PATH@/assets/images/youth-church-usa-profile-128x79.jpg\"></div>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"69\"><strong>Address</strong><br>Youth Church USA<br>PO Box 374<br>Kettle Falls, WA 99141</p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"70\"><strong>Contacts</strong><br>\nEmail:<br><a href=\"mailto:thetimothyconnection@gmail.com\">thetimothyconnection@gmail.com</a><br><br>Text:<br> 1 (509) 690 6375<br><br></p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"71\"><strong>Links</strong><br><a href=\"page1.html\">Learn</a><br><a href=\"page2.html\">Share</a><br><a href=\"page3.html\">Contact</a><br><a href=\"page4.html\">Donate</a></p>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "meta_descr": "Site Creator Description",
+        "title": "Blogs From You",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "48px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Blogs From You",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2v"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">HOME</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">LEARN</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">SHARE</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"page2.html\" data-toolbar=\"-mbrBtnMove\">CONTACT</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"https://spark.adobe.com/page/kzkV93xjHMfW8/\" data-toolbar=\"-mbrBtnMove\">SUNRISE DIALOGUES</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-2w"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "font-size": "36px"
+            }
+          },
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Under Construction",
+          "meta": "By John Smith posted July 20, 2016",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2x"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/youth-church-usa-profile-128x79.jpg",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>Youth Church USA<br>PO Box 374<br>Kettle Falls, WA 99141",
+          "text2": "<strong>Contacts</strong><br>\nEmail: <a href=\"mailto:youthchurchusa@gmail.com\">youthchurchusa@gmail.com</a><br>Text: +1 (509) 690 6375<br><br>",
+          "text3": "<strong>Links</strong><br><a href=\"page1.html\">Learn</a><br><a href=\"page2.html\">Share</a><br><a href=\"page3.html\">Contact</a><br><a href=\"page4.html\">Donate</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2p",
+          "_customHTML": "<section class=\"mbr-section mbr-section-md-padding mbr-footer footer1\" data-rv-view=\"43\" style=\"background-color: rgb(0, 0, 0); padding-top: 90px; padding-bottom: 90px;\">\n    \n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <div><img src=\"@PROJECT_PATH@/assets/images/youth-church-usa-profile-128x79.jpg\"></div>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"75\"><strong>Address</strong><br>Youth Church USA<br>PO Box 374<br>Kettle Falls, WA 99141</p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"76\"><strong>Contacts</strong><br>\nEmail:<br><a href=\"mailto:thetimothyconnection@gmail.com\">thetimothyconnection@gmail.com</a><br><br>Text:<br> 1 (509) 690 6375<br><br></p>\n            </div>\n            <div class=\"mbr-footer-content col-xs-12 col-md-3\">\n                <p class=\"mbr-editable-content\" code-editable-id=\"77\"><strong>Links</strong><br><a href=\"page1.html\">Learn</a><br><a href=\"page2.html\">Share</a><br><a href=\"page3.html\">Contact</a><br><a href=\"page4.html\">Donate</a></p>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_customCSS": "",
+          "_customTemplate": true
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "meta_descr": "Website Creator Description",
+        "title": "Sunrise Dialogues",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-30"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/youth-church-usa-profile-128x79.jpg",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br>Youth Church USA<br>PO Box 374<br>Kettle Falls, WA 99141",
+          "text2": "<strong>Contacts</strong><br>\nEmail: <a href=\"mailto:youthchurchusa@gmail.com\">youthchurchusa@gmail.com</a><br>Text: +1 (509) 690 6375<br><br>",
+          "text3": "<strong>Links</strong><br><a href=\"page1.html\">Learn</a><br><a href=\"page2.html\">Share</a><br><a href=\"page3.html\">Contact</a><br><a href=\"page4.html\">Donate</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-2y"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": false,
+            "showBrand": true,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">LEARN</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">SHARE</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page3.html\">CONTACT</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">BLOGS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"page5.html\">&nbsp;Young People's&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://spark.adobe.com/page/kzkV93xjHMfW8/\" aria-expanded=\"false\" target=\"_blank\">Sunrise Dialogues</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\">DONATE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span class=\"mbri-user mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>I TIM 4:12 Network</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2z"
         }
       ]
     }
