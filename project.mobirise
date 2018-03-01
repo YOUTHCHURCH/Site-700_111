@@ -1117,7 +1117,7 @@
             "paddingBottom": 1,
             "bgColor": "#fff"
           },
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">HOME</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">LEARN</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CONTACT</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CONTACT</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">HOME</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"page1.html\" data-toolbar=\"-mbrBtnMove\">LEARN</a> <a data-app-btn=\"true\" class=\"btn btn-danger-outline btn-danger\" href=\"page3.html\" data-toolbar=\"-mbrBtnMove\">CONTACT</a> ",
           "_tags": [
             "Theme"
           ],
